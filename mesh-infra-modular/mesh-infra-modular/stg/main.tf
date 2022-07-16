@@ -3,7 +3,7 @@ terraform {
 }
 
 resource "google_bigquery_dataset" "dataset_mesh_staging" {
- datasetid = var.datasetid
+ dataset_id = var.datasetid
  location = var.location
 }
 

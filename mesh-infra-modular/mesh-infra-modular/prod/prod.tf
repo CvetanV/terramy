@@ -5,7 +5,7 @@ terraform {
 # create one dataset
 module "bq_dataset" {
   source = "../modules/bq_dataset"
-  dataset_id = var.datasetid
+  datasetid = var.datasetid
   location = var.location
 }
 
