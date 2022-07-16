@@ -1,5 +1,5 @@
 
-resource "google_bigquery_table" "table_customer" {
+resource "google_bigquery_table" "table" {
  table_id = var.name
  dataset_id = var.dataset_id
 

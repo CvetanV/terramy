@@ -5,11 +5,11 @@ terraform {
 # create one dataset
 module "bq_dataset" {
   source = "../modules/bq_dataset"
-  datasetid = var.datasetid
+  dataset_id = var.datasetid
   location = var.location
 }
 
-# create one dataset
+# create one table
 module "bq_table" {
   for_each = var.project
   source = "../modules/bq_table"
