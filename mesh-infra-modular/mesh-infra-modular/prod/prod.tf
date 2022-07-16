@@ -26,7 +26,7 @@ variable "project" {
   default     = {
     table_customer = {
         format: "PARQUET",
-        address: "gs://mesh-source-domain-tpch/PROD/mesh-customer/*"    
+        address: "gs://mybucket0306/PROD/customer/*"
     }
   }
 }
